@@ -1,0 +1,13 @@
+name: SilkTouchHands
+main: net.ejs.silktouchhands.SilkTouchHands
+version: "1.0"
+api-version: 1.13
+commands:
+ silktouch:
+  description: gives the player silk touch when they destroy blocks with their hand
+  usage: /silktouch
+  permission: silktouchhands.silktouch
+ unsilktouch:
+  description: removes the ability for the player to have silk touch when they destroy blocks with their hand
+  usage: /unsilktouch
+  permission: silktouchhands.silktouch
