@@ -12,6 +12,9 @@ This is a spigot plugin that allows players to pick up blocks with their bare ha
 
 **/unsilktouch** without the player name can also be used to revoke the silk touch capabilities from the player that entered the command
 
+**/checksilktouch <player>**  checks and displays a players silk touch capabilities
+
+**/checksilktouch** without the player name can also be used check the silk touch capabilities of the player that entered the command
 
 # Usage
 
