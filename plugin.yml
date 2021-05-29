@@ -11,3 +11,7 @@ commands:
   description: removes the ability for the player to have silk touch when they destroy blocks with their hand
   usage: /unsilktouch
   permission: silktouchhands.silktouch
+ checksilktouch:
+  description: checks if the player has the ability to have silk touch when they destroy blocks with their hand
+  usage: /checksilktouch
+  permission: silktouchhands.silktouch

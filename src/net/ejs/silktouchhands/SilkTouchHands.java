@@ -19,6 +19,7 @@ public class SilkTouchHands extends JavaPlugin implements Listener {
 	public void onEnable() {
 		this.getCommand("silktouch").setExecutor(new SilkTouchCommand());
 		this.getCommand("unsilktouch").setExecutor(new UnsilkTouchCommand());
+		this.getCommand("checksilktouch").setExecutor(new CheckSilkTouchCommand());
 		Bukkit.getPluginManager().registerEvents(this, this);
 		plugin = this;
 	}
